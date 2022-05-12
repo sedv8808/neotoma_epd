@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Neotoma EPD</title>
+    </head>
+    
+    <body>
+       <pre data-executable>
+
+library(neotoma2)
+
+dataset45 <- get_datasets(45)
+
+datasets(dataset45)
+       
+       </pre>
+
+       <script src="juniper.min.js"> </script>
+       <script>new Juniper({repo: 'sedv8808/neotoma_binder', branch: 'main', defaultLang: 'r', kernelType: 'IRkernel', kernelName: 'IRkernel'})</script>
+    </body>
+</html>
