@@ -14692,7 +14692,21 @@ The following object is masked from ‘package:stats’:
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-r"><pre><span></span>
+<div class=" highlight hl-r"><pre><span></span><span class="o">&lt;</span><span class="n">html</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="n">head</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="n">title</span><span class="o">&gt;</span><span class="n">Neotoma</span> <span class="n">EPD</span><span class="o">&lt;/</span><span class="n">title</span><span class="o">&gt;</span>
+    <span class="o">&lt;/</span><span class="n">head</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="n">body</span><span class="o">&gt;</span>
+       <span class="o">&lt;</span><span class="n">pre</span> <span class="n">data</span><span class="o">-</span><span class="n">executable</span><span class="o">&gt;</span>
+            <span class="nf">library</span><span class="p">(</span><span class="n">neotoma2</span><span class="p">)</span>
+            <span class="n">dataset45</span> <span class="o">&lt;-</span> <span class="nf">get_datasets</span><span class="p">(</span><span class="m">45</span><span class="p">)</span>
+            <span class="nf">datasets</span><span class="p">(</span><span class="n">dataset45</span><span class="p">)</span>
+       <span class="o">&lt;/</span><span class="n">pre</span><span class="o">&gt;</span>
+
+       <span class="o">&lt;</span><span class="n">script</span> <span class="n">src</span><span class="o">=</span><span class="s">&quot;juniper.min.js&quot;</span><span class="o">&gt;</span> <span class="o">&lt;/</span><span class="n">script</span><span class="o">&gt;</span>
+       <span class="o">&lt;</span><span class="n">script</span><span class="o">&gt;</span><span class="n">new</span> <span class="nf">Juniper</span><span class="p">({</span> <span class="n">repo</span><span class="o">:</span> <span class="s">&#39;NeotomaDB/neotoma_binder&#39;</span> <span class="p">})</span><span class="o">&lt;/</span><span class="n">script</span><span class="o">&gt;</span>
+    <span class="o">&lt;/</span><span class="n">body</span><span class="o">&gt;</span>
+<span class="o">&lt;/</span><span class="n">html</span><span class="o">&gt;</span>
 </pre></div>
 
      </div>
